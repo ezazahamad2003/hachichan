@@ -169,37 +169,51 @@ export default function WomenHistorySite() {
 
           {/* Voice 1 */}
           <Card className="p-6 sm:p-8 bg-card rounded-2xl shadow-lg anim-rise">
-            <h3 className="font-serif text-2xl sm:text-3xl font-bold text-primary mb-4">
+            <h3 className="font-serif text-2xl sm:text-3xl font-bold text-primary mb-6">
               1. Early American Education (17th Century)
             </h3>
-            <div className="space-y-4 text-foreground leading-relaxed text-sm sm:text-base">
-              <p>
-                During the seventeenth century, educational opportunities were very limited for girls compared to boys.
-                Most girls’ formal education ended between the ages of 12 and 14. It was not deemed necessary for a girl
-                to complete further schooling, especially because these girls were expected to become homemakers one day
-                by society. In school, they were taught only basic skills such as reading, arithmetic, as well as writing
-                which at the time were considered to be sufficient for women’s expected roles of being homemakers,
-                caregivers, and of course mothers. Boys, in contrast, were actually encouraged to pursue higher
-                education and they studied various subjects such as Latin, geography, and history, which prepared them
-                for pursuing higher education.
-              </p>
-              <p>
-                Despite these limitations, women still played a crucial role in early American education as teachers. In
-                the beginning of 1717, Connecticut required towns to at least have one school. Specifically, in the town
-                of Cornwall, one of the earliest schools was held in the home of a woman named Rachel Marsh Douglass and
-                her husband, James Douglass. Rachel and her husband had a schedule. Rachel would teach during the summer
-                months, and her husband would teach during the winter. This arrangement actually reflects a common
-                pattern across the state of Connecticut, where winter months were primarily taught by men, while summer
-                months were primarily taught by women. Also, women taught specifically in “women’s schools”.
-              </p>
-              <p>
-                These women’s schools were essential to receive basic education within communities, even though female
-                teachers were only allowed to teach students foundational topics. Young women who aimed to become
-                teachers were expected to have strong moral character for example instead of having proper academic
-                training. This example connects to my theme of Women and Education by showing how women were continuously
-                excluded from higher education, yet relied on as teachers. Their participation mapped the pathway for
-                later efforts to expand educational access for women.
-              </p>
+            <div className="flex flex-col md:flex-row gap-6 md:gap-8">
+              <div className="flex-1 space-y-4 text-foreground leading-relaxed text-sm sm:text-base">
+                <p>
+                  During the seventeenth century, educational opportunities were very limited for girls compared to boys.
+                  Most girls’ formal education ended between the ages of 12 and 14. It was not deemed necessary for a girl
+                  to complete further schooling, especially because these girls were expected to become homemakers one day
+                  by society. In school, they were taught only basic skills such as reading, arithmetic, as well as writing
+                  which at the time were considered to be sufficient for women’s expected roles of being homemakers,
+                  caregivers, and of course mothers. Boys, in contrast, were actually encouraged to pursue higher
+                  education and they studied various subjects such as Latin, geography, and history, which prepared them
+                  for pursuing higher education.
+                </p>
+                <p>
+                  Despite these limitations, women still played a crucial role in early American education as teachers. In
+                  the beginning of 1717, Connecticut required towns to at least have one school. Specifically, in the town
+                  of Cornwall, one of the earliest schools was held in the home of a woman named Rachel Marsh Douglass and
+                  her husband, James Douglass. Rachel and her husband had a schedule. Rachel would teach during the summer
+                  months, and her husband would teach during the winter. This arrangement actually reflects a common
+                  pattern across the state of Connecticut, where winter months were primarily taught by men, while summer
+                  months were primarily taught by women. Also, women taught specifically in “women’s schools”.
+                </p>
+                <p>
+                  These women’s schools were essential to receive basic education within communities, even though female
+                  teachers were only allowed to teach students foundational topics. Young women who aimed to become
+                  teachers were expected to have strong moral character for example instead of having proper academic
+                  training. This example connects to my theme of Women and Education by showing how women were continuously
+                  excluded from higher education, yet relied on as teachers. Their participation mapped the pathway for
+                  later efforts to expand educational access for women.
+                </p>
+              </div>
+              <div className="w-full md:w-1/3 flex flex-col gap-2">
+                <div className="relative overflow-hidden rounded-xl border-4 border-primary/20 bg-muted">
+                  <img
+                    src="/Screenshot 2025-12-15 at 10.56.16 PM.png"
+                    alt="Early American Education"
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
+                <p className="text-xs text-muted-foreground text-center italic">
+                  Early American Education
+                </p>
+              </div>
             </div>
           </Card>
 
