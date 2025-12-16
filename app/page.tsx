@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
-import { Avatar, AvatarFallback } from "@/components/ui/avatar"
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 export default function WomenHistorySite() {
   const [activeSection, setActiveSection] = useState("home")
@@ -115,7 +115,8 @@ export default function WomenHistorySite() {
                 Meet the Historian
               </h3>
               <div className="flex flex-col items-center space-y-4">
-                <Avatar className="w-20 h-20 sm:w-24 sm:h-24 border-4 border-primary/20">
+                <Avatar className="w-32 h-32 sm:w-40 sm:h-40 border-4 border-primary/20">
+                  <AvatarImage src="/IMG_7749.jpeg" alt="Amanat Virk" className="object-cover" />
                   <AvatarFallback className="bg-primary text-primary-foreground text-xl sm:text-2xl font-bold">
                     AV
                   </AvatarFallback>
